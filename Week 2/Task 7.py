@@ -2,10 +2,10 @@ import pandas as pd;
 import numpy as np;
 
 # Importing Data from a single sheet of an Excel file and setting row 2 as the Header
-ask = pd.read_excel("Datasets/SampleWork.xlsx", sheet_name="Sheet1",header=1)
+ask = pd.read_excel("Datasets/SampleWork.xlsx", sheet_name="Sheet1",skiprows=2)
 
 # Selecting only the First and the Last column from the Excel file
-ask1 = ask.iloc[1:,[0,-1]]
+ask1 = ask.iloc[:,[0,-1]]
 print(ask1)
 
 # Exporting the Data into another Sheet(New Sheet) in the existing excel file
