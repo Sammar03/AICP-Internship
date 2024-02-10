@@ -20,11 +20,11 @@ print("The df1 Dataframe:\n",df1)
 
 # Adding a new column "Height" into the AICP_DF Dataframe
 AICP_DF["Height"] = [5.1,6.2,5.1,5.2,5.1]
-print("AICP_DF after addition of Heigh column:\n",AICP_DF)
+print("AICP_DF after addition of Height column:\n",AICP_DF)
 
 # Setting the "Name" column as the Index column of the AICP_DF Dataframe
 AICP_DF.set_index("Name", inplace=True)
-print("AICP_DF after settign the Name column as Index:\n",AICP_DF)
+print("AICP_DF after setting the Name column as Index:\n",AICP_DF)
 
 # Retreiving the row with "Hifza" as the Index element from the AICP_DF Dataframe
 print("The row with Index Hifza from AICP_DF:\n",AICP_DF[AICP_DF.index == "Hifza"])
