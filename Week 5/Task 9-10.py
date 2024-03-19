@@ -36,16 +36,3 @@ plt.imshow(cloud, interpolation='bilinear')  # Display word cloud
 plt.show()
 
 
-# Task 11: Calculate and visualize the correlation matrix
-corr_cols = data.drop(['Caption', 'Hashtags'], axis=1)  # Remove non-numeric columns for correlation calculation
-corr1 = corr_cols.corr()  # Calculate correlation matrix
-fig = px.imshow(corr1, color_continuous_scale='Blues')  # Plot correlation matrix
-fig.show()  # Show the plot
-
-
-# Task 12: Visualize counts of hashtags
-counts = data['Hashtags'].str.findall(r'(#\w+)').explode().value_counts()  # Count hashtags
-we = counts.reset_index()  # Reset index for plotting
-we.columns = ['Hashtag', 'Count']  # Rename columns
-fig = px.bar(we, x='Hashtag', y='Count')  # Plot bar chart
-fig.show()  # Show the plot
