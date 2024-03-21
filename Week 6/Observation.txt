@@ -1,3 +1,10 @@
-After analyzing the trends of birth rates, it's evident that the rate of births is highest on Tuesdays, while Sundays consistently record the lowest rate of births. Additionally, it's notable that the rate of births is generally higher on working days compared to weekends. This trend suggests a correlation between the timing of births and the days of the week, with more births occurring during weekdays, possibly influenced by factors such as scheduled inductions or elective procedures, as well as the availability of medical staff during standard working hours.
+After analyzing the trends of birth rates, it's evident that the rate of births is highest on Tuesdays, while
+Sundays consistently record the lowest rate of births. Additionally, it's notable that the rate of births is 
+generally higher on working days compared to weekends. This trend suggests a correlation between the timing of 
+births and the days of the week, with more births occurring during weekdays, possibly influenced by factors such
+as scheduled inductions or elective procedures, as well as the availability of medical staff during standard 
+working hours.
 
-Furthermore, this trend holds true for both male and female childbirth, indicating that the pattern of higher birth rates on weekdays is consistent across genders. This observation highlights the uniformity of the trend and suggests that external factors affecting birth timing apply equally to both male and female births.
+Furthermore, this trend holds true for both male and female childbirth, indicating that the pattern of higher 
+birth rates on weekdays is consistent across genders. This observation highlights the uniformity of the trend 
+and suggests that external factors affecting birth timing apply equally to both male and female births.
